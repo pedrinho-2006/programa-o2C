@@ -2,18 +2,72 @@
 @import url("styles/banner.css");
 
 :root{
-    --cor-de-fundo:#EBECEE;
-    --branco:#FFFFFF;
-    --amarelo:#FECD2F;
-    --roxo:#800080;
-    --preto:#000000;
-    --fonte-principal:"Poppins";
-    --fonte-secundaria:"Josefin Sans";  
+--cor-de-fundo:#EBECEE;
+--branco:#FFFFFF;
+--amarelo:#FECD2F;
+--roxo:#800080;
+--preto:#000000;;
+--fonte-principal:"Poppins";
+--fonte-secundaria:"Josefin Sans";
 }
 body{
-    background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
-   
+background-color: var(--cor-de-fundo);
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 400;
+
+}
+.socios{
+
+background-image: linear-gradient(#193705,#a1a7b6);
+color: white;
+display: flex;
+justify-content: center;
+font-family: sans;
+font-family: 'Chonburi', cursive;
+
+}
+
+.titulo-socios-torcedores{
+padding:50px 100px 50px 50px;
+
+}
+
+.div-maior{
+display: grid;
+grid-template-columns: 40% 25% 25% 25%;
+
+justify-content: center;
+padding: 0;
+
+}
+
+.titulo-socios-torcedores{
+text-align: justify;
+flex-wrap: wrap;
+margin-left: px;
+}
+.div-conteudo-socio{
+text-align: center;
+display: inline-grid;
+
+}
+
+.nomes-socio{
+text-align: left;
+}
+
+.foto-socio{
+width: 230px;
+height: 200px;
+margin-left: 0px;
+border: 2px solid;
+border-radius: 3px;
+
+}
+
+.github-icon{
+width: 40px;
+margin-top: 10px;
+text-align: center;
 }
